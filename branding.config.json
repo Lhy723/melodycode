@@ -1,0 +1,60 @@
+{
+  "$schema": "./branding.schema.json",
+  "name": "MelodyCode",
+  "shortName": "melodycode",
+  "tagline": "Your personal AI coding agent",
+
+  "cli": {
+    "bin": "melodycode",
+    "alias": ["mc"]
+  },
+
+  "desktop": {
+    "appIdProd": "com.melodycode.desktop",
+    "appIdBeta": "com.melodycode.desktop.beta",
+    "appIdDev": "com.melodycode.desktop.dev",
+    "productNameProd": "MelodyCode",
+    "productNameBeta": "MelodyCode Beta",
+    "productNameDev": "MelodyCode Dev",
+    "protocolScheme": "melodycode",
+    "windowTitle": "MelodyCode",
+    "publishOwner": "",
+    "publishRepoProd": "",
+    "publishRepoBeta": ""
+  },
+
+  "runtime": {
+    "configDirName": "melodycode",
+    "dotConfigDirName": ".melodycode"
+  },
+
+  "urls": {
+    "homepage": "",
+    "docsBase": "",
+    "consoleBase": "",
+    "apiBase": "",
+    "shareBase": "",
+    "installScript": "",
+    "tuiSchema": "",
+    "configSchema": "",
+    "providerReferer": "",
+    "appuiBase": ""
+  },
+
+  "upstream": {
+    "name": "opencode",
+    "homepage": "https://opencode.ai",
+    "repo": "https://github.com/anomalyco/opencode",
+    "consoleBase": "https://console.opencode.ai",
+    "apiBase": "https://api.opencode.ai",
+    "docsBase": "https://opencode.ai/docs",
+    "shareBase": "https://opencode.ai",
+    "appuiBase": "https://app.opencode.ai",
+    "installScript": "https://opencode.ai/install",
+    "tuiSchema": "https://opencode.ai/tui.json",
+    "configSchema": "https://opencode.ai/config.json",
+    "providerReferer": "https://opencode.ai/"
+  },
+
+  "useUpstreamServicesAsFallback": true
+}
