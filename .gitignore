@@ -34,3 +34,4 @@ logs/
 tsconfig.tsbuildinfo
 desktop-dev.log
 predev.log
+.playwright-mcp/
